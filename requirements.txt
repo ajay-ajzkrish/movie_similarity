@@ -1,0 +1,8 @@
+pandas
+numpy
+streamlit
+warnings
+pickle
+matplotlib
+seaborn
+requests
