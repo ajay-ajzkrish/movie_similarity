@@ -36,6 +36,8 @@ selected_movie = st.selectbox(
     "Type or select a movie from the dropdown",
     movie_list
 )
+st.warning("This project is trained on a small dataset and hence contains only about 5000 movies in total.")
+
 
 if st.button('Show Recommendation'):
     recommended_movie_names = recommend(selected_movie)
